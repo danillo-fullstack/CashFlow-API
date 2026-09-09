@@ -16,6 +16,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashFlow.Exception", "src\C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashFlow.Infrastructure", "src\CashFlow.Infrastructure\CashFlow.Infrastructure.csproj", "{65F7419E-259F-4D9B-A96E-C175BF190DED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validators.Tests", "tests\Validators.Tests\Validators.Tests.csproj", "{681E1C40-C136-42E7-8483-17665CA2936E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonTestUtilities", "tests\CommonTestUtilities\CommonTestUtilities.csproj", "{4AE820E8-79E0-409D-8F5A-0D7C731F9CD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +32,8 @@ Global
 		{368D9A52-C24A-4A77-B5BE-0D5BDE84DD26} = {3054543E-9B48-4E69-8183-B74B74DB2FD8}
 		{D5A28A6E-9732-404E-B20B-10AB48B0A8E1} = {3054543E-9B48-4E69-8183-B74B74DB2FD8}
 		{65F7419E-259F-4D9B-A96E-C175BF190DED} = {3054543E-9B48-4E69-8183-B74B74DB2FD8}
+		{681E1C40-C136-42E7-8483-17665CA2936E} = {455ECC54-1DB7-4FE1-831A-1715E37968D5}
+		{4AE820E8-79E0-409D-8F5A-0D7C731F9CD4} = {455ECC54-1DB7-4FE1-831A-1715E37968D5}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{944B4120-E8E9-441A-8660-E085A977E9BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -54,5 +60,13 @@ Global
 		{65F7419E-259F-4D9B-A96E-C175BF190DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65F7419E-259F-4D9B-A96E-C175BF190DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65F7419E-259F-4D9B-A96E-C175BF190DED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{681E1C40-C136-42E7-8483-17665CA2936E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{681E1C40-C136-42E7-8483-17665CA2936E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{681E1C40-C136-42E7-8483-17665CA2936E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{681E1C40-C136-42E7-8483-17665CA2936E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AE820E8-79E0-409D-8F5A-0D7C731F9CD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AE820E8-79E0-409D-8F5A-0D7C731F9CD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AE820E8-79E0-409D-8F5A-0D7C731F9CD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AE820E8-79E0-409D-8F5A-0D7C731F9CD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
