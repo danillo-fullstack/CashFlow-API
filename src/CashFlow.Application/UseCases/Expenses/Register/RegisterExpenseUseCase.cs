@@ -12,7 +12,7 @@ public class RegisterExpenseUseCase
     {
         Validate(request);
 
-        var expense = new Expense()
+        var entity = new Expense()
         {
             Title = request.Title,
             Description = request.Description,
