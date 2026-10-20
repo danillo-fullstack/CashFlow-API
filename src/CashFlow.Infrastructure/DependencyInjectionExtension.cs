@@ -11,7 +11,7 @@ public static class DependencyInjectionExtension
     public static void AddInfrastructure(this IServiceCollection services)
     {
         services.AddDbContext<CashFlowDbContext>(options =>
-            options.UseInMemoryDatabase("cashflowdb"));
+            options.UseSqlite("Data Source=cashflow.db"));
 
         services.AddScoped<IExpensesRepository, ExpensesRepository>();
     }
