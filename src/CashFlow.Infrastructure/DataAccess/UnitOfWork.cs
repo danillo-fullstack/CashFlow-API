@@ -4,8 +4,8 @@ namespace CashFlow.Infrastructure.DataAccess;
 
 internal class UnitOfWork(CashFlowDbContext dbContext) : IUnitOfWork
 {
-    public void Commit()
+    public async Task Commit()
     {
-        dbContext.SaveChanges();
+        await dbContext.SaveChangesAsync();
     }
 }
